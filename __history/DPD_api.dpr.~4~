@@ -1,0 +1,16 @@
+program DPD_api;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {Form_main},
+  ApiClass in 'ApiClass.pas',
+  geography2 in 'geography2.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm_main, Form_main);
+  Application.Run;
+end.

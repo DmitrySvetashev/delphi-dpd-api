@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.674,=C:\_prog\delphi\DPD API\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.991,=C:\_prog\delphi\DPD API\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.900,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.868,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.992,C:\_prog\delphi\DPD API\common.pas=C:\_prog\delphi\DPD API\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,=C:\_prog\delphi\DPD API\geography2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.212,C:\_prog\delphi\DPD API\ApiClass.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.972,C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\_prog\delphi\DPD API\DPD_api.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.516,C:\_prog\delphi\DPD API\Unit1.pas=C:\_prog\delphi\DPD API\ApiClass.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.402,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.629,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.433,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.654,C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\_prog\delphi\DPD API\Main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.853,=C:\_prog\delphi\DPD API\calculator2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.236,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.110,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.654,C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\_prog\delphi\DPD API\Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.032,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.753,=C:\Users\Dmitry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Main.pas"/>
+    <File Path="Main.dfm"/>
+    <File Path="geography2.pas"/>
+    <File Path="calculator2.pas"/>
+    <File Path="common.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

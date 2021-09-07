@@ -1,0 +1,49 @@
+unit ApiClass;
+
+interface
+
+uses System.Classes, IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient, IdHTTP, IdIOHandler,
+  IdIOHandlerSocket, IdIOHandlerStack, main, System.Sysutils;
+
+type
+  TEtxtAPI = class
+  private
+    FHTTP: TidHTTP;
+    FIOHandler: TIdIOHandlerStack;
+    FToken: string;
+    FApiPass: string;
+  public
+    constructor Create;
+    destructor Destroy;override;
+    function GET(const AParams: TStringList): string;
+    property Token: string read FToken write FToken;
+    property ApiPass: string read FApiPass write FApiPass;
+end;
+
+
+implementation
+
+constructor TEtxtAPI.Create;
+begin
+  inherited;
+  FIOHandler := TIdIOHandlerStack.Create(nil);
+  FHTTP := TIdHTTP.Create(nil);
+  FHTTP.IOHandler := FIOHandler;
+  FHTTP.HandleRedirects := True;
+end;
+
+destructor TEtxtAPI.Destroy;
+begin
+  FHTTP.Free;
+  FIOHandler.Free;
+  inherited;
+end;
+
+function TEtxtAPI.GET(const AParams: TStringList): string;
+begin
+  AParams.Delimiter:='&amp;';
+  FHTTP.Disconnect;
+  Result:=FHTTP.Get(Format(baseURL,[AParams.DelimitedText]));
+end;
+
+end.
